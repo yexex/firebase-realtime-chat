@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
-  apiKey: process.env.apiKey,
-  authDomain: process.env.authDomain,
-  databaseURL: process.env.databaseURL,
-  projectId: process.env.projectId,
-  storageBucket: process.env.storageBucket,
-  messagingSenderId: process.env.messagingSenderId,
-  appId: process.env.appId,
+const firebaseConfig = {
+  apiKey: "AIzaSyAa9nIvVqumqkClFO8il19Va0KoQ_wmN8M",
+  authDomain: "yexs-chat.firebaseapp.com",
+  databaseURL: "https://yexs-chat-default-rtdb.firebaseio.com",
+  projectId: "yexs-chat",
+  storageBucket: "yexs-chat.appspot.com",
+  messagingSenderId: "784190773413",
+  appId: "1:784190773413:web:5de305c6e34bc779a6154c"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
